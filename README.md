@@ -24,7 +24,7 @@ end
 
 ## Instalando softwares necessários
 
-1º Instale o (nginx)[https://nginx.org/en/]
+1º Instale o [nginx](https://nginx.org/en/)
 ```
 sudo apt-get install nginx -y
 ```
