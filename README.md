@@ -37,7 +37,7 @@ sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gp
 sudo su
 echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list
 exit
-sudo apt-get install -y php7.1 php7.1-zip php7.1-dom php7.1-mbstring 
+sudo apt-get install -y php7.1-fpm php7.1-zip php7.1-dom php7.1-mbstring 
 ```
 
 3º Instalar o MongoDB.
