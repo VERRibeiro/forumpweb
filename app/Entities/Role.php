@@ -13,7 +13,7 @@ class Role
 {
     const ADMINISTRATOR = 1;
     const USER = 2;
-    const RESEARCHER = 3;
+    const GUEST = 3;
 
     /**
      * @ORM\Id

@@ -13,8 +13,8 @@
 use Illuminate\Support\Facades\Hash;
 
 Route::get('/', function () {
-	echo Hash::make('Hello world.');
-    //return view('home');
+	//echo Hash::make('Hello world.');
+    return view('home');
 });
 
 Route::get('/category', 'CategoryController@index');
